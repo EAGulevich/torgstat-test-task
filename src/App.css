@@ -1,0 +1,41 @@
+#root {
+  margin: 0 auto;
+}
+
+.dev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+  border: 1px solid red;
+  width: 320px;
+}
+
+.dev-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.dev-img-container {
+  position: relative;
+  border: 1px solid red;
+}
+
+.dev-dot-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background: red;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.cat {
+  width: 100%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  vertical-align: middle;
+}
